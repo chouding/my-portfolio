@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// import corpcommentImg from "@/public/corpcomment.png";
-// import rmtdevImg from "@/public/rmtdev.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
+import nasaProjectImg from "@/public/NasaYearOnPsyche.jpg";
+import rtxProjectImg from "@/public/CyberVerificationLab.png";
+import fabflixProjecImg from "@/public/FabFlix.png";
 
 export const links = [
   {
@@ -78,29 +78,29 @@ export const experiencesData = [
   },
 ] as const;
 
-// export const projectsData = [
-//   {
-//     title: "CorpComment",
-//     description:
-//       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-//     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-//     imageUrl: corpcommentImg,
-//   },
-//   {
-//     title: "rmtDev",
-//     description:
-//       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-//     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-//     imageUrl: rmtdevImg,
-//   },
-//   {
-//     title: "Word Analytics",
-//     description:
-//       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-//     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-//     imageUrl: wordanalyticsImg,
-//   },
-// ] as const;
+export const projectsData = [
+  {
+    title: "NASA Year on Psyche",
+    description:
+      `An interactive Unity-based game to educate students about NASA’s Psyche asteroid mission`,
+    tags: ["Unity", "C#", "Blender", "Agile", "Jira"],
+    imageUrl: nasaProjectImg,
+  },
+  {
+    title: "Cyber Verification Lab",
+    description:
+      `Dashboard for RTX's internal validation tool, a platform to help cybersecurity engineers verify assets`,
+    tags: ["React", "TypeScript", "MongoDB", "Tailwind CSS", "Git"],
+    imageUrl: rtxProjectImg,
+  },
+  {
+    title: "FabFlix",
+    description:
+      `An e-commerce app on AWS EC2, enabling users to easily search, browse, and purchase movies`,
+    tags: ["Java", "JavaScript", "MySQL", "JDBC", "Tomcat", "Git", "AWS"],
+    imageUrl: fabflixProjecImg,
+  },
+] as const;
 
 export const skillsData = [
   "HTML",
