@@ -35,22 +35,23 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Front-end Engineer AWS Intern",
-    company: "Amazon AWS",
+    title: "Frontend Engineer Intern",
+    company: "Amazon Web Services",
     description:
-      "Incoming Front-End Engineer AWS Intern.",
+      `• Built a large-scale, in-page WYSIWYG editing interface in React, Redux and TypeScript for 1,000+ configuration pages across 100+ AWS Data Centers, reducing manual update time by 98%
+       • Developed a reusable GraphQL invoke operator leveraged by multiple AWS Data Center teams, reducing boilerplate query code by ~70% and projected to save 100+ developer hours annually
+       • Implemented CI/CD (Jenkins) and Git workflows to accelerate feature rollout, achieving 98%+ test coverage with Jest
+       • Drove cross-team Agile collaboration with 3+ platform teams in a global, distributed system, for design-system compliance`,
     icon: React.createElement(LuGraduationCap),
-    date: "June 2025 - Present",
+    date: "June 2025 - Sept 2025",
   },
   {
     title: "Software Engineer Intern",
-    company: "IMD Solutions",
+    company: "GlucoGuard",
     description:
-      `• Developed a scalable React Native mobile application targeting 1.6+ million Type 1 diabetics, integrating Dexcom API
-       • Handled complex data processing and storage for 100+ beta users by building RESTful APIs using Flask
-       • Ensured reliable message delivery by implementing a secure OAuth flow and token management using Firebase
-       • Reduced critical glucose alert response times by 89% by implementing multi-threading to optimize alert pipeline
-       • Implemented a deep learning model for blood glucose forecasting, reducing hypoglycemic events by 25%`,
+      `• Designed and deployed secure, containerized RESTful APIs (Flask/Python, Docker) for 10+ beta users of a React Native app
+       • Optimized critical glucose alert pipelines on the backend via multi-threading, reducing alert response times by 89%
+       • Built a HIPAA-compliant architecture for sensitive health data, ensuring long-term security and compliance for FDA approval`,
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2025 - June 2025",
   },
@@ -58,21 +59,19 @@ export const experiencesData = [
     title: "Software Engineer Intern",
     company: "Amgen Inc.",
     description:
-      `• Led a research project to evaluate the performance of a RAG-based chatbot on the Amgen Sensing platform
-       • Built a Databricks-based evaluation pipeline using Ragas and OpenAI, improving response relevance
-       • Analyzed 100+ chatbot interactions, enhancing response consistency across a multitude of different departments
-       • Aligned evaluation metrics with business goals, driving 50%+ adoption of the metric by developers`,
+      `• Led the evaluation of a RAG-based chatbot on the Amgen Sensing platform across multiple enterprise business units
+       • Built a Databricks-based evaluation pipeline with Ragas and OpenAI APIs, reducing evaluation cycle time by 60%
+       • Analyzed 100+ chatbot interactions across business contexts to improve response relevance for 200+ internal users`,
     icon: React.createElement(FaReact),
     date: "June 2024 - Sept 2024",
   },
-    {
+  {
     title: "Web Developer",
-    company: "UCI Division of Equal Opportunity and Compliance",
+    company: "UCI Office of Equal Opportunity and Diversity",
     description:
       `• Reduced migration time of policy website by 30% through efficient usage of Cascade CMS, a web layout builder
-       • Improved the website’s interactivity and design, accelerating the work efficiency of 10+ employees
-       • Developed scalable and reusable UI components through Velocity Templates, increasing website traffic by 15%
-       • Successfully met WCAG 2.0/2.1 AA standards to make web content more accessible and visible for users`,
+       • Optimized responsive design across browsers/services, accelerating the work efficiency of 10+ employees
+       • Met full WCAG 2.0/2.1 AA compliance, broadening accessibility for diverse user groups and improving site visibility`,
     icon: React.createElement(FaReact),
     date: "June 2023 - June 2024",
   },
