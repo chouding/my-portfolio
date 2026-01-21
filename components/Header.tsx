@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useContext } from 'react';
+import React from 'react';
 import { links } from "@/lib/data";
 {/* adds interactivity with header */}
 import { motion } from "framer-motion";

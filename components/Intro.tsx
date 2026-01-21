@@ -1,7 +1,7 @@
 "use client";
 
 import Image from 'next/image';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -55,9 +55,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">
-          Hello, I'm Raymond.
+          Hello, I&apos;m Raymond.
         </span> {" "}
-        I'm a {" "}
+        I&apos;m a {" "}
         <span className="font-bold">
           software engineer
         </span> {" "}
